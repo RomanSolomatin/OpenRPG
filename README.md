@@ -9,3 +9,10 @@ At the moment i have implemented 3 systems:
 - HotKeyBar System (working hand by hand with the Inventory): You can drag & drop items from the inventory and assign them to the slots! Just add the keys that you want to an array and it will be generated!
 
 Every system has Save/Load functionality in a .sav file located in external folder just pressing a key during gameplay!
+
+Future systems to be implemented:
+- Stats system
+- Quest system
+- Dialogue system
+- Combat system
+- Minimap system
