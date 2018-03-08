@@ -16,3 +16,6 @@ Future systems to be implemented:
 - Dialogue system
 - Combat system
 - Minimap system
+- Ability system
+
+Thank you so much to UnrealGaimeDev, i started programming in UE4 due to his amazing youtube tutorials that you can find here: https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww
