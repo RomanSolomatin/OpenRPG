@@ -1,5 +1,5 @@
 # OpenRPG
-###### Welcome! In this repository you will find a great powerful, well commented and structured API that will be the base of your RPG game!
+#### Welcome! In this repository you will find a great powerful, well commented and structured API that will be the learning base to build your own RPG game!
 
 ## Inventory System
   - Has common functions like Add, Remove, Drop, Split, Swap, Drag & Drop, etc). 
@@ -35,4 +35,4 @@ Future systems to be implemented:
 - Crafting system
 - Multipurpose NPC system
 
-Thank you so much to [UnrealGaimeDev] (https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww), i started programming in UE4 due to his amazing youtube tutorials :D
+Thank you so much to [UnrealGaimeDev](https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww), i started programming in UE4 due to his amazing youtube tutorials :D
