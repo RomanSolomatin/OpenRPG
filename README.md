@@ -1,21 +1,38 @@
 # OpenRPG
-Welcome to my repository, be patient im new at this!
-At the moment i have implemented 3 systems:
+#### Welcome! In this repository you will find a great powerful, well commented and structured API that will be the learning base to build your own RPG game!
 
-- Inventory System:
-  Has common functions like Split, Drop, Swap, Drag & Drop, Add, Remove, etc). Supports different types of items (consumable, equipment, material, quest, miscellaneous) very easy to add and modify via DataTable. Also each item can execute custom logic when used. 
-- Equipment System (working hand by hand with the Inventory):
-  Has multi-slots (helment, armor, weapon, shield, boots, etc) and you can have different attributes for each one, making them unique even if they are from the same class!
-- HotKeyBar System (working hand by hand with the Inventory): You can drag & drop items from the inventory and assign them to the slots! Just add the keys that you want to an array and it will be generated!
+## Inventory System
+  - Has common functions like Add, Remove, Drop, Split, Swap, Drag & Drop, etc). 
+  - Supports different types of items (consumable, equipment, material, quest, miscellaneous) and you can add your custom ones!
+  - Very easy to add and modify items via DataTable. 
+  - Each item can execute custom logic when used, just overriding an event in its class.
+  
+## Equipment System
+  - Support for multi-slots, i have added 8 examples (helmet, armor, weapon, shield, boots, earrings, belt, ring) to show how to use your custom ones!
+  - Each item has custom stat values that applies to the player when they are equipped (see Stats System for more info).
+  - Every property is editable via DataTable.
+  
+## HotKeyBar System
+  - Dynamically generated with the keys that you want!
+  - Supports inventory items and skills (when Skill System implemented).
+  - Enabled or disabled in your game just changing a boolean.
 
-Every system has Save/Load functionality in a .sav file located in external folder just pressing a key during gameplay!
+## Stats system
+  - (Add e_BarRegenMode)
+  - Allows you to have different bars (comes with health, mana and exp as examples) with custom behavior like regen/drain, etc.
+  - Comes with 19 stat examples (resistances, strenghts, movement and attack speed, etc).
+  - You can add your custom function logic when an stat is changed. 
+
+**Every system has Save/Load functionality in a .sav file located in external folder just pressing a key during gameplay!**
 
 Future systems to be implemented:
-- Stats system
+
 - Quest system
 - Dialogue system
 - Combat system
 - Minimap system
 - Ability system
+- Crafting system
+- Multipurpose NPC system
 
-Thank you so much to UnrealGaimeDev, i started programming in UE4 due to his amazing youtube tutorials that you can find here: https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww
+Thank you so much to [UnrealGaimeDev](https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww), i started programming in UE4 due to his amazing youtube tutorials :D
