@@ -23,7 +23,7 @@
   - Comes with 19 stat examples (resistances, strenghts, movement and attack speed, etc).
   - You can add your custom function logic when an stat is changed. 
 
-Every system has Save/Load functionality in a .sav file located in external folder just pressing a key during gameplay!
+**Every system has Save/Load functionality in a .sav file located in external folder just pressing a key during gameplay!**
 
 Future systems to be implemented:
 
