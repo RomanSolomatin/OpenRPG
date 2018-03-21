@@ -35,4 +35,4 @@ Future systems to be implemented:
 - Crafting system
 - Multipurpose NPC system
 
-Thank you so much to UnrealGaimeDev, i started programming in UE4 due to his amazing youtube tutorials that you can find here: https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww
+Thank you so much to [UnrealGaimeDev] (https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww), i started programming in UE4 due to his amazing youtube tutorials :D
