@@ -1,15 +1,27 @@
 # OpenRPG
-### Welcome! In this repository you will find a great powerful, well commented and structured API that will be the base of your RPG game!
+###### Welcome! In this repository you will find a great powerful, well commented and structured API that will be the base of your RPG game!
 
 ## Inventory System
-  Has common functions like Split, Drop, Swap, Drag & Drop, Add, Remove, etc). Supports different types of items (consumable, equipment, material, quest, miscellaneous) very easy to add and modify via DataTable. Also each item can execute custom logic when used. 
+  - Has common functions like Add, Remove, Drop, Split, Swap, Drag & Drop, etc). 
+  - Supports different types of items (consumable, equipment, material, quest, miscellaneous) and you can add your custom ones!
+  - Very easy to add and modify items via DataTable. 
+  - Each item can execute custom logic when used, just overriding an event in its class.
+  
 ## Equipment System
-  Has multi-slots (helment, armor, weapon, shield, boots, etc) and you can have different attributes for each one, making them unique even if they are from the same class!
+  - Support for multi-slots, i have added 8 examples (helmet, armor, weapon, shield, boots, earrings, belt, ring) to show how to use your custom ones!
+  - Each item has custom stat values that applies to the player when they are equipped (see Stats System for more info).
+  - Every property is editable via DataTable.
+  
 ## HotKeyBar System
-You can drag & drop items from the inventory and assign them to the slots! Just add the keys that you want to an array and it will be generated!
+  - Dynamically generated with the keys that you want!
+  - Supports inventory items and skills (when Skill System implemented).
+  - Enabled or disabled in your game just changing a boolean.
 
 ## Stats system
-(Add e_BarRegenMode) Allows you to have different bars (comes with health, mana and exp as examples) with custom behavior like regen/drain, etc. Also you can have your own stats (comes with 19 as examples) and add custom function logic when anyone is changed, very useful for movement speed, attack speed and so on. 
+  - (Add e_BarRegenMode)
+  - Allows you to have different bars (comes with health, mana and exp as examples) with custom behavior like regen/drain, etc.
+  - Comes with 19 stat examples (resistances, strenghts, movement and attack speed, etc).
+  - You can add your custom function logic when an stat is changed. 
 
 Every system has Save/Load functionality in a .sav file located in external folder just pressing a key during gameplay!
 
