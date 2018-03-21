@@ -8,14 +8,18 @@ At the moment i have implemented 3 systems:
   Has multi-slots (helment, armor, weapon, shield, boots, etc) and you can have different attributes for each one, making them unique even if they are from the same class!
 - HotKeyBar System (working hand by hand with the Inventory): You can drag & drop items from the inventory and assign them to the slots! Just add the keys that you want to an array and it will be generated!
 
+- Stats system: (Add e_BarRegenMode) Allows you to have different bars (comes with health, mana and exp as examples) with custom behavior like regen/drain, etc. Also you can have your own stats (comes with 19 as examples) and add custom function logic when anyone is changed, very useful for movement speed, attack speed and so on. 
+
 Every system has Save/Load functionality in a .sav file located in external folder just pressing a key during gameplay!
 
 Future systems to be implemented:
-- Stats system
+
 - Quest system
 - Dialogue system
 - Combat system
 - Minimap system
 - Ability system
+- Crafting system
+- Multipurpose NPC system
 
 Thank you so much to UnrealGaimeDev, i started programming in UE4 due to his amazing youtube tutorials that you can find here: https://www.youtube.com/channel/UCRnPBe1tJpXA0lccx_U1mww
