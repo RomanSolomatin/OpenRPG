@@ -18,7 +18,6 @@
   - Enabled or disabled in your game just changing a boolean.
 
 ## Stats system
-  - (Add e_BarRegenMode)
   - Allows you to have different bars (comes with health, mana and exp as examples) with custom behavior like regen/drain, etc.
   - Comes with 19 stat examples (resistances, strenghts, movement and attack speed, etc).
   - You can add your custom function logic when an stat is changed. 
